@@ -127,7 +127,7 @@ class {{{classname}}} {
       postBody,
       headerParams,
       formParams,
-      contentTypes.isEmpty ? null : contentTypes.first,
+      contentTypes.isEmpty ? 'application/json' : contentTypes.first,
     );
   }
 
